@@ -15,7 +15,7 @@ namespace Requests
             Console.WriteLine("початковий список:");
             foreach(int num in array)
             {
-                Console.WriteLine($"{num} ");
+                Console.WriteLine(num);
             }
 
             var res = array.Distinct();
@@ -24,7 +24,7 @@ namespace Requests
             Console.WriteLine("\nрезультат:");
             foreach (int num in res)
             {
-                Console.WriteLine($"{num} ");
+                Console.WriteLine(num);
             }
         }
     }
